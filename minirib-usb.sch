@@ -4,10 +4,10 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "2021-07-26"
+Title "MiniRIB-USB"
+Date "2021-08-06"
 Rev "A"
-Comp ""
+Comp "W3AXL"
 Comment1 ""
 Comment2 ""
 Comment3 ""

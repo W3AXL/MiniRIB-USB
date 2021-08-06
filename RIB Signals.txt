@@ -1,0 +1,16 @@
+Serial Outputs
+---------------------------------------------
+Serial TX High     -> 	BUS+ 0V, BUS- 5V
+Serial TX Low      -> 	BUS+ 5V, BUS- Floating
+
+Serial DTR High    ->	~BUSY 5V, BUSY 0V, CTS/RI +5V
+Serial DTR Low     ->	~BUSY 0V, BUSY 5V, CTS/RI -5V
+
+Serial Inputs
+---------------------------------------------
+BUS+ 0V, BUS- 5V   ->	Serial RX High
+BUS+ 5V, BUS- 0V   ->	Serial RX Low
+
+~BUSY 0V, BUSY 5V  ->	CTS/RI -5V
+~BUSY 5V, BUSY 0V  ->	CTS/RI +5V
+
