@@ -603,4 +603,40 @@ Text GLabel 5800 4750 0    50   Input ~ 0
 RXD
 Wire Wire Line
 	5900 4750 5800 4750
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 610DD5AA
+P 8000 3000
+F 0 "J?" H 8200 3450 50  0000 C CNN
+F 1 "Test_header" H 8200 3350 50  0000 C CNN
+F 2 "" H 8000 3000 50  0001 C CNN
+F 3 "~" H 8000 3000 50  0001 C CNN
+	1    8000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 610E094D
+P 8600 2850
+F 0 "#PWR?" H 8600 2600 50  0001 C CNN
+F 1 "GND" H 8605 2677 50  0001 C CNN
+F 2 "" H 8600 2850 50  0001 C CNN
+F 3 "" H 8600 2850 50  0001 C CNN
+	1    8600 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2800 8600 2800
+Wire Wire Line
+	8600 2800 8600 2850
+Text GLabel 8200 2900 2    50   Input ~ 0
+~BUSY
+Text GLabel 8200 3000 2    50   Input ~ 0
+BUSY
+Text GLabel 8200 3100 2    50   Input ~ 0
+BUS-
+Text GLabel 8200 3200 2    50   Input ~ 0
+BUS+
+Text GLabel 8200 3300 2    50   Input ~ 0
+BIAS
 $EndSCHEMATC
