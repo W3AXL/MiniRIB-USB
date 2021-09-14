@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MiniRIB-USB)(type KiCad)(uri ${KIPRJMOD}/MiniRIB-USB.pretty)(options "")(descr ""))
+)
