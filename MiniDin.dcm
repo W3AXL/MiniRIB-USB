@@ -1,9 +1,81 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD8610
+D Single Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers, SOIC-8
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf
+$ENDCMP
+#
+$CMP LF155
+D Single JFET Input Operational Amplifiers, DIP-8/SOIC-8
+K single jfet opamp
+F http://www.ti.com/lit/ds/symlink/lf357.pdf
+$ENDCMP
+#
+$CMP LF156
+D Single JFET Input Operational Amplifiers, DIP-8/SOIC-8
+K single jfet opamp
+F http://www.ti.com/lit/ds/symlink/lf357.pdf
+$ENDCMP
+#
+$CMP LF256
+D Single JFET Input Operational Amplifiers, DIP-8/SOIC-8
+K single jfet opamp
+F http://www.ti.com/lit/ds/symlink/lf357.pdf
+$ENDCMP
+#
+$CMP LF257
+D Single JFET Input Operational Amplifiers, DIP-8/SOIC-8
+K single jfet opamp
+F http://www.ti.com/lit/ds/symlink/lf357.pdf
+$ENDCMP
+#
+$CMP LF355
+D Single JFET Input Operational Amplifiers, DIP-8/SOIC-8
+K single jfet opamp
+F http://www.ti.com/lit/ds/symlink/lf357.pdf
+$ENDCMP
+#
+$CMP LF356
+D Single JFET Input Operational Amplifiers, DIP-8/SOIC-8
+K single jfet opamp
+F http://www.ti.com/lit/ds/symlink/lf357.pdf
+$ENDCMP
+#
+$CMP LF357
+D Single JFET Input Operational Amplifiers, DIP-8/SOIC-8
+K single jfet opamp
+F http://www.ti.com/lit/ds/symlink/lf357.pdf
+$ENDCMP
+#
 $CMP Mini-DIN-6-Shielded
 D 6-pin Mini-DIN connector
 K Mini-DIN
 F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
+$ENDCMP
+#
+$CMP TL061
+D Single Low-Power JFET-Input Operational Amplifiers, DIP-8/SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/tl061.pdf
+$ENDCMP
+#
+$CMP TL071
+D Single Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8
+K singel opamp
+F http://www.ti.com/lit/ds/symlink/tl071.pdf
+$ENDCMP
+#
+$CMP TL081
+D Single JFET-Input Operational Amplifiers, DIP-8/SOIC-8
+K single opamp
+F http://www.ti.com/lit/ds/symlink/tl081.pdf
+$ENDCMP
+#
+$CMP TL081H
+D Operational Amplifier, SOT-23-5
+K single opamp
+F https://www.ti.com/lit/ds/symlink/tl084.pdf
 $ENDCMP
 #
 #End Doc Library

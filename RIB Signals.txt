@@ -13,4 +13,3 @@ BUS+ 5V, BUS- 0V   ->	Serial RX Low
 
 ~BUSY 0V, BUSY 5V  ->	CTS/RI -5V
 ~BUSY 5V, BUSY 0V  ->	CTS/RI +5V
-
