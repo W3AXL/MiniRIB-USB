@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L Interface_USB:FT231XS U1
 U 1 1 60FEEDA0
-P 3600 3000
-F 0 "U1" H 3600 3050 50  0000 C CNN
-F 1 "FT231XS" H 3600 2950 50  0000 C CNN
-F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" H 4600 2200 50  0001 C CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf" H 3600 3000 50  0001 C CNN
-	1    3600 3000
+P 12250 2500
+F 0 "U1" H 12250 2550 50  0000 C CNN
+F 1 "FT231XS" H 12250 2450 50  0000 C CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" H 13250 1700 50  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf" H 12250 2500 50  0001 C CNN
+	1    12250 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -532,17 +532,6 @@ Wire Wire Line
 	8850 3200 8750 3200
 Wire Wire Line
 	8750 3200 8750 3300
-$Comp
-L Device:R_Small R20
-U 1 1 6125161C
-P 8550 3200
-F 0 "R20" V 8500 3200 50  0000 C BNN
-F 1 "4k7" V 8550 3200 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8550 3200 50  0001 C CNN
-F 3 "~" H 8550 3200 50  0001 C CNN
-	1    8550 3200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8650 3200 8750 3200
 Connection ~ 8750 3200
@@ -1100,17 +1089,6 @@ F 3 "~" V 8950 4400 50  0001 C CNN
 	1    8950 4400
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R22
-U 1 1 6141ACF7
-P 8750 4400
-F 0 "R22" V 8700 4400 50  0000 C BNN
-F 1 "1k5" V 8750 4400 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8750 4400 50  0001 C CNN
-F 3 "~" H 8750 4400 50  0001 C CNN
-	1    8750 4400
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8550 3800 9150 3800
 Connection ~ 6800 5300
@@ -1282,5 +1260,27 @@ F 2 "Connector_USB:USB_Micro-B_Wuerth_629105150521" H 1800 2750 50  0001 C CNN
 F 3 "~" H 1800 2750 50  0001 C CNN
 	1    1650 2800
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R20
+U 1 1 6125161C
+P 8550 3200
+F 0 "R20" V 8500 3200 50  0000 C BNN
+F 1 "4k7" V 8550 3200 40  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8550 3200 50  0001 C CNN
+F 3 "~" H 8550 3200 50  0001 C CNN
+	1    8550 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R22
+U 1 1 6141ACF7
+P 8750 4400
+F 0 "R22" V 8700 4400 50  0000 C BNN
+F 1 "1k5" V 8750 4400 40  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8750 4400 50  0001 C CNN
+F 3 "~" H 8750 4400 50  0001 C CNN
+	1    8750 4400
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
