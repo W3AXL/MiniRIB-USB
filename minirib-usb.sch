@@ -25,17 +25,6 @@ F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf" H 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Mini J1
-U 1 1 60FEF9B3
-P 1650 2800
-F 0 "J1" H 1707 3267 50  0000 C CNN
-F 1 "USB_B_Mini" H 1707 3176 50  0000 C CNN
-F 2 "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal" H 1800 2750 50  0001 C CNN
-F 3 "~" H 1800 2750 50  0001 C CNN
-	1    1650 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR01
 U 1 1 60FF123F
 P 1600 3300
@@ -1134,7 +1123,7 @@ U 1 1 61524090
 P 3000 4850
 F 0 "J2" H 3000 5217 50  0000 C CNN
 F 1 "Mini-DIN-6-Shielded" H 3000 5126 50  0000 C CNN
-F 2 "MiniRIB-USB:MDJ-006-FS" H 3000 4850 50  0001 C CNN
+F 2 "MiniRIB-USB:KMDGX-6S-BS" H 3000 4850 50  0001 C CNN
 F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 3000 4850 50  0001 C CNN
 	1    3000 4850
 	1    0    0    -1  
@@ -1282,5 +1271,16 @@ F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 8850 5350 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tl084.pdf" H 8950 5450 50  0001 C CNN
 	1    8800 5300
 	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 61BB19CD
+P 1650 2800
+F 0 "J1" H 1707 3267 50  0000 C CNN
+F 1 "USB_B_Micro" H 1707 3176 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Wuerth_629105150521" H 1800 2750 50  0001 C CNN
+F 3 "~" H 1800 2750 50  0001 C CNN
+	1    1650 2800
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
