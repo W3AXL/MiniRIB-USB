@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L Interface_USB:FT231XS U1
 U 1 1 60FEEDA0
-P 12250 2500
-F 0 "U1" H 12250 2550 50  0000 C CNN
-F 1 "FT231XS" H 12250 2450 50  0000 C CNN
-F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" H 13250 1700 50  0001 C CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf" H 12250 2500 50  0001 C CNN
-	1    12250 2500
+P 3600 3000
+F 0 "U1" H 3600 3050 50  0000 C CNN
+F 1 "FT231XS" H 3600 2950 50  0000 C CNN
+F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" H 4600 2200 50  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf" H 3600 3000 50  0001 C CNN
+	1    3600 3000
 	1    0    0    -1  
 $EndComp
 $Comp
