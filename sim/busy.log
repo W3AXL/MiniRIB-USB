@@ -1,0 +1,23 @@
+Circuit: * H:\Documents\GitHub\MiniRIB-USB\sim\busy.asc
+
+Limiting rise time of source v2 to 0.0001
+Limiting fall time of source v2 to 0.0001
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Jan 04 13:29:55 2022
+Total elapsed time: 0.044 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 5936
+traniter = 5912
+tranpoints = 2472
+accept = 2140
+rejected = 332
+matrix size = 23
+fillins = 4
+solver = Normal
+Matrix Compiler1: 1.81 KB object code size  0.3/0.2/[0.1]
+Matrix Compiler2: off  [0.1]/0.2/0.2
+
