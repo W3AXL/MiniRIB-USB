@@ -772,7 +772,7 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start -1.016 5.08) (mid -4.6243 2.1181) (end -4.318 -2.54)
+        (arc (start -1.016 5.08) (mid -4.6243 2.1182) (end -4.318 -2.54)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -3405,7 +3405,7 @@
     (in_bom yes) (on_board yes)
     (uuid 001e7031-5191-4137-b571-4db89e01d436)
     (property "Reference" "C2" (id 0) (at 69.85 93.98 90))
-    (property "Value" "0.1uF" (id 1) (at 72.39 93.98 90)
+    (property "Value" "22pF" (id 1) (at 72.39 93.98 90)
       (effects (font (size 1.27 1.27)) (justify bottom))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 74.93 93.98 0)
@@ -3528,7 +3528,7 @@
     (in_bom yes) (on_board yes)
     (uuid 8b8de74b-a6fb-4ed3-afed-26cf3e3e1736)
     (property "Reference" "C9" (id 0) (at 87.63 93.98 90))
-    (property "Value" "0.1uF" (id 1) (at 85.09 93.98 90)
+    (property "Value" "22pF" (id 1) (at 85.09 93.98 90)
       (effects (font (size 1.27 1.27)) (justify bottom))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 82.55 93.98 0)
@@ -3790,7 +3790,7 @@
       (reference "C1") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/001e7031-5191-4137-b571-4db89e01d436"
-      (reference "C2") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C2") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000613a989a"
       (reference "C3") (unit 1) (value "220pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -3811,7 +3811,7 @@
       (reference "C8") (unit 1) (value "220pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/8b8de74b-a6fb-4ed3-afed-26cf3e3e1736"
-      (reference "C9") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C9") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/c4fbac00-9acb-4f3d-bb8e-e1bf130a776c"
       (reference "C10") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
