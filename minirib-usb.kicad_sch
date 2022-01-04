@@ -6,9 +6,10 @@
 
   (title_block
     (title "MiniRIB-USB")
-    (date "2021-09-14")
-    (rev "A")
+    (date "2022-01-04")
+    (rev "B")
     (company "W3AXL")
+    (comment 1 "USB based adaption of the RLN4008B schematic")
   )
 
   (lib_symbols
