@@ -772,7 +772,7 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start -1.016 5.08) (mid -4.6228 2.1214) (end -4.318 -2.54)
+        (arc (start -1.016 5.08) (mid -4.6243 2.1181) (end -4.318 -2.54)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -872,7 +872,7 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start 4.318 -2.54) (mid 4.6661 2.1322) (end 1.016 5.08)
+        (arc (start 4.318 -2.54) (mid 4.6646 2.1357) (end 1.016 5.08)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -1157,8 +1157,8 @@
   )
 
   (no_connect (at 105.41 86.36) (uuid 1dc40799-6ae3-4c4a-b25a-16b0a8f8d3c0))
-  (no_connect (at 105.41 81.28) (uuid 1dc40799-6ae3-4c4a-b25a-16b0a8f8d3c0))
-  (no_connect (at 85.09 68.58) (uuid 1dc40799-6ae3-4c4a-b25a-16b0a8f8d3c0))
+  (no_connect (at 105.41 81.28) (uuid 1dc40799-6ae3-4c4a-b25a-16b0a8f8d3c1))
+  (no_connect (at 85.09 68.58) (uuid 1dc40799-6ae3-4c4a-b25a-16b0a8f8d3c2))
   (no_connect (at 66.04 78.74) (uuid 24f7628d-681d-4f0e-8409-40a129e929d9))
   (no_connect (at 105.41 76.2) (uuid 7d5c1a4e-3bc9-4a18-9301-8f5114957ac9))
 
@@ -3292,7 +3292,7 @@
     (uuid 00000000-0000-0000-0000-000061cab525)
     (property "Reference" "U2" (id 0) (at 220.98 128.27 0))
     (property "Value" "TL081H" (id 1) (at 218.44 130.81 0))
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" (id 2) (at 222.25 133.35 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering" (id 2) (at 222.25 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl084.pdf" (id 3) (at 219.71 130.81 0)
@@ -3946,7 +3946,7 @@
       (reference "U1") (unit 1) (value "CH340G") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000061cab525"
-      (reference "U2") (unit 1) (value "TL081H") (footprint "Package_TO_SOT_SMD:SOT-23-5_HandSoldering")
+      (reference "U2") (unit 1) (value "TL081H") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering")
     )
     (path "/b7ae2741-cdfb-4364-be17-bf0fe6f39ee4"
       (reference "Y1") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm_HandSoldering")
