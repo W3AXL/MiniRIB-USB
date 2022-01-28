@@ -1,15 +1,32 @@
 Serial Outputs
 ---------------------------------------------
-Serial TX High     -> 	BUS+ 0V, BUS- 5V
-Serial TX Low      -> 	BUS+ 5V, BUS- Floating
+Serial TX High (0)   ->	BUS+ 0V, BUS- 5V (0)
+Serial TX Low (1)    ->	BUS+ 5V, BUS- Floating (1)
 
-Serial DTR High    ->	~BUSY 5V, BUSY 0V, CTS/RI +5V
-Serial DTR Low     ->	~BUSY 0V, BUSY 5V, CTS/RI -5V
+Serial DTR Low (0)   ->	~BUSY 0V, BUSY 5V, CTS/RI -5V ("Busy")
+Serial DTR High (1)  ->	~BUSY 5V, BUSY 0V, CTS/RI +5V ("Not Busy")
 
 Serial Inputs
 ---------------------------------------------
-BUS+ 0V, BUS- 5V   ->	Serial RX High
-BUS+ 5V, BUS- 0V   ->	Serial RX Low
+BUS+ 0V, BUS- 5V (0) ->	Serial RX High (0)
+BUS+ 5V, BUS- 0V (1) ->	Serial RX Low (1)
 
-~BUSY 0V, BUSY 5V  ->	CTS/RI -5V
-~BUSY 5V, BUSY 0V  ->	CTS/RI +5V
+~BUSY 0V, BUSY 5V ("Busy")     -> CTS/RI -5V (0)
+~BUSY 5V, BUSY 0V ("Not Busy") -> CTS/RI +5V (1)
+
+
+UART Outputs
+---------------------------------------------
+UART TX Low (0)      ->	BUS+ 0V, BUS- 5V (0)
+UART TX High (1)     ->	BUS+ 5V, BUS- Floating (1)
+
+UART DTR High (0)    ->	~BUSY 0V, BUSY 5V, CTS/RI -5V ("Busy")
+UART DTR Low (1)     ->	~BUSY 5V, BUSY 0V, CTS/RI +5V ("Not Busy")
+
+UART Inputs
+---------------------------------------------
+BUS+ 0V, BUS- 5V (0) ->	UART RX Low (0)
+BUS+ 5V, BUS- 0V (1) ->	UART RX High (1)
+
+~BUSY 0V, BUSY 5V ("Busy")     -> CTS/RI High (0)
+~BUSY 5V, BUSY 0V ("Not Busy") -> CTS/RI Low (1)
