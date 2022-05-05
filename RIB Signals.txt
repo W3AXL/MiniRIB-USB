@@ -20,8 +20,8 @@ UART Outputs
 UART TX Low (0)      ->	BUS+ 0V, BUS- 5V (0)
 UART TX High (1)     ->	BUS+ 5V, BUS- Floating (1)
 
-UART DTR High (0)    ->	~BUSY 0V, BUSY 5V, CTS/RI -5V ("Busy")
-UART DTR Low (1)     ->	~BUSY 5V, BUSY 0V, CTS/RI +5V ("Not Busy")
+UART ~DTR High (0)   ->	~BUSY 5V, BUSY 0V, CTS/RI 5V ("Not Busy")
+UART ~DTR Low (1)    ->	~BUSY 0V, BUSY 5V, CTS/RI 0V ("Busy")
 
 UART Inputs
 ---------------------------------------------

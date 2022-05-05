@@ -1,24 +1,23 @@
 Circuit: * H:\Documents\GitHub\MiniRIB-USB\sim\busy.asc
 
-Limiting rise time of source v2 to 0.0001
-Limiting fall time of source v2 to 0.0001
-WARNING: Less than two connections to node NC_01.  This node is used by R9.
+Limiting rise time of source v2 to 4e-007
+Limiting fall time of source v2 to 4e-007
 Direct Newton iteration for .op point succeeded.
 
-Date: Fri Jan 21 14:16:59 2022
-Total elapsed time: 0.062 seconds.
+Date: Wed May 04 18:50:33 2022
+Total elapsed time: 0.036 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 6426
-traniter = 6402
-tranpoints = 2647
-accept = 2274
-rejected = 373
-matrix size = 26
-fillins = 6
+totiter = 3735
+traniter = 3730
+tranpoints = 1657
+accept = 1483
+rejected = 174
+matrix size = 12
+fillins = 0
 solver = Normal
-Matrix Compiler1:     114 opcodes  0.3/[0.2]/0.2
-Matrix Compiler2: off  [0.2]/0.2/0.2
+Matrix Compiler1: 722 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
 

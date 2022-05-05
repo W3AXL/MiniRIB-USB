@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "MiniDin")(type "Legacy")(uri "${KIPRJMOD}/MiniDin.lib")(options "")(descr ""))
+  (lib (name "max232")(type "KiCad")(uri "${KIPRJMOD}/max232.kicad_sym")(options "")(descr ""))
 )
