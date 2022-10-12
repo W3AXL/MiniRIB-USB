@@ -6,7 +6,7 @@
 
   (title_block
     (title "MiniRIB-USB")
-    (date "2022-05-05")
+    (date "2022-10-12")
     (rev "C")
     (company "W3AXL")
     (comment 1 "USB based adaption of the RLN4008B schematic")
@@ -3330,7 +3330,7 @@
     (uuid 55a317c2-22a5-4365-8e54-bca6e8c5492e)
     (property "Reference" "J3" (id 0) (at 189.23 79.5687 90))
     (property "Value" "RS232" (id 1) (at 189.23 82.3438 90))
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical" (id 2) (at 189.23 77.47 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (id 2) (at 189.23 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 189.23 77.47 0)
@@ -4634,7 +4634,7 @@
       (reference "J2") (unit 1) (value "Mini-DIN-6-Shielded") (footprint "MiniRIB-USB:KMDGX-6S-BS")
     )
     (path "/55a317c2-22a5-4365-8e54-bca6e8c5492e"
-      (reference "J3") (unit 1) (value "RS232") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical")
+      (reference "J3") (unit 1) (value "RS232") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/af5c60b5-8759-4955-8681-0d321320f557"
       (reference "Q1") (unit 1) (value "MMBT3906") (footprint "Package_TO_SOT_SMD:SOT-23")
