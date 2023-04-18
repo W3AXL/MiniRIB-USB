@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "MiniRIB-USB")(type "KiCad")(uri "${KIPRJMOD}/MiniRIB-USB.pretty")(options "")(descr ""))
+  (lib (name "lcsc-comps")(type "KiCad")(uri "${KIPRJMOD}/lcsc-comps.pretty")(options "")(descr ""))
 )
