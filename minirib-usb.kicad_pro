@@ -410,8 +410,8 @@
       "idf": "",
       "netlist": "minirib-usb.net",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "minirib-usb-revE.step",
+      "vrml": "minirib-usb-revE.wrl"
     },
     "page_layout_descr_file": ""
   },
